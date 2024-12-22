@@ -1,0 +1,22 @@
+kubectl get deployments
+
+kubectl get services
+
+kubectl get replicaset
+
+
+cd into the folder that containes the configserver.yml
+kubectl apply -f configserver.yml
+
+
+kubectl get deployments
+
+kubectl get services
+
+kubectl get replicaset
+
+kubectl get pods
+
+
+http://localhost:8071/eurekaserver/default
+http://localhost:8071/accounts/prod

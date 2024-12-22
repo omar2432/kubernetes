@@ -1,0 +1,3 @@
+
+cd into the folder that containes the accounts.yaml
+kubectl apply -f accounts.yaml

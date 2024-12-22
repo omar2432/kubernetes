@@ -1,0 +1,4 @@
+
+cd into the folder that contains the file:
+kubectl apply -f configmaps.yaml
+
