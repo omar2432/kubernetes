@@ -34,13 +34,18 @@ kubectl get pods
 kubectl describe pod <pod name>
 #######################
 
+#################
+cd to the file folder:
+kubectl delete -f accounts.yaml
+#################
 
 
-
-
-
-
-
+############IF YOU ARE GETTING ISSUES WHEN REINSTALLING A HELM CHART############
+#to get the Persistent Volume Claims
+kubectl get pvc
+#to delete a pvc 
+kubectl delete pvc <pvc name>
+############
 
 
 
